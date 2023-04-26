@@ -1,11 +1,14 @@
 import moment from 'moment';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
 const Header = () => {
 	return (
 		<div className='my-4 text-center'>
-			<img src={logo} alt='' />
+			<Link to='/category/0'>
+				<img src={logo} className='img-fluid' alt='' />
+			</Link>
 			<p className='my-2 text-secondary fs-5'>
 				Journalism Without Fear or Favour
 			</p>

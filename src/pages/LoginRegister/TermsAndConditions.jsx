@@ -3,7 +3,7 @@ import React from 'react';
 const TermsAndConditions = () => {
 	return (
 		<div>
-			<h1>TermsAndConditions</h1>
+			<h1>Terms</h1>
 		</div>
 	);
 };
